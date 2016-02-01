@@ -12,3 +12,9 @@ cd hello-world
 ls
 git init
 git status
+
+Committing to Repo
+git status
+git add <file-name>
+git commit -m "commit message"
+git diff
