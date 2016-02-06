@@ -19,3 +19,17 @@ practiselearnunode.js
 Node basics (Based on nodeschool.io/learnyounode)
 
 This file is for practising the basics of Node from nodeschool.io.(Incomplete)
+
+
+
+Modules to be covered (in order of priority)
+How to npm
+Functional Javascript
+Expressworks
+Test Anything
+Learnyoureact
+Learnyoumongo
+Regex-adventure
+Thnking in React
+MEANworks
+Torrential
