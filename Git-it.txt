@@ -1,0 +1,79 @@
+#Installing Git
+check if git is installed
+git --version
+
+#set username for git
+git config --global user.name "<Your Name>"
+git config --global user.email "<Your Email>"
+
+#Creating Repository
+mkdir hello-world
+cd hello-world
+ls
+git init
+git status
+
+#Committing to Repo
+git status
+git add <file-name>
+git commit -m "commit message"
+git diff
+
+#Add username to git
+git config --global user.username siftnoorsingh
+
+#Add remote connections
+git remote add origin <repo-url>
+git remote set-url <remotename> <url>
+
+#Push changes
+git push origin <branchname>
+
+#Pull changes
+git pull origin <branchname>
+
+#fork and clone a repo
+git clone <repo-url>
+
+#connect to original repo
+git remote add upstream <original repo url>
+
+#view remote connections
+git remote -v
+
+#create branch
+git branch <branchname>
+
+#check current branch 
+git status
+
+#go to a specific branch
+git checkout <branchname>
+
+#checking in a file
+git add <filename>
+git commit -m "<message>"
+git push origin <branchname>
+
+#change current branch's name
+git branch -m <branchname>
+
+#create and switch to a branch
+git checkout -b <branchname>
+
+#list all branches
+git branch
+
+#commit everything
+git add -A
+git commit -m "<message>"
+
+#pull changes
+git pull origin <branchname>
+
+#see changes to the remote before you pull
+git fetch --dry-run
+
+
+
+
