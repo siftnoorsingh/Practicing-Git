@@ -74,6 +74,6 @@ git pull origin <branchname>
 #see changes to the remote before you pull
 git fetch --dry-run
 
-
-
+#removing any unstaged files not yet committed
+git reset
 
