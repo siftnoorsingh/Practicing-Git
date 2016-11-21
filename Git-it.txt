@@ -28,6 +28,7 @@ git remote set-url <remotename> <url>
 
 #Push changes
 git push origin <branchname>
+git push -u origin <branchname>
 
 #Pull changes
 git pull origin <branchname>
