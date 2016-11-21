@@ -77,3 +77,5 @@ git fetch --dry-run
 #removing any unstaged files not yet committed
 git reset
 
+#removing git from a local folder
+rm -rf .git
