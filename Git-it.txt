@@ -2,6 +2,10 @@
 check if git is installed
 git --version
 
+#get username for git
+git config user.name #returns your username
+git config --list # returns username, useremail, coreeditor
+
 #set username for git
 git config --global user.name "<Your Name>"
 git config --global user.email "<Your Email>"
@@ -20,7 +24,7 @@ git commit -m "commit message"
 git diff
 
 #Add username to git
-git config --global user.username siftnoorsingh
+git config --global user.username <"Your Name">
 
 #Add remote connections
 git remote add origin <repo-url>
